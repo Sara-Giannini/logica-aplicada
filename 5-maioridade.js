@@ -4,7 +4,7 @@
 function informaMaiorIdade (anoDeNascimento) {
     if (anoDeNascimento <= 2004) {
         return ('É maior de idade')
-    } else if (anoDeNascimento >= 2004) {
+    } else if (anoDeNascimento > 2004) {
         return ('É menor de idade')
     }
 }
